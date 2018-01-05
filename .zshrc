@@ -87,7 +87,7 @@ greeting=($(cat /home/$username/.greetings))
 IFS=$old_IFS
 
 # display greeting
-#echo ${greeting[$hour]} "Welcome back to the CLI."
+echo ${greeting[$hour]} "Welcome back to the CLI."
 
 export GOROOT=$HOME/Development/go
 export PATH=$PATH:$GOROOT/bin
