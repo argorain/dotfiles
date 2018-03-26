@@ -92,5 +92,3 @@ set laststatus=2
 
 set cursorline
 set showcmd
-
-command! Wq wq
